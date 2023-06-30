@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    //creating an array of string elements
+     var students=["mary","amy","john","mark"];
+     document.write(students +"<br>")
+     //creating an an array of  number elements
+     var marks=[48,30,50,56]
+     document.write("displaying an array of number elements " + marks +"<br>")
+     //accessing the element at index 1 in the array
+     document.write(students[1] +"<br>")
+     //displaying the length of our arrray  using the.length property
+     document.write("the length of the students array is"+students.length +"<br>")
+   //using push()to add an arry element
+    students.push("brian")
+    document.write(students +"<br>")
+    students.push("luke")
+    document.write(students +"<br>")
+    //using pop()to remove  the last array element
+    students.pop()
+    document.write(students +"<br>")
+    //using indexof to return index of an array element
+    document.write("the index of mark in the array is" +students.indexOf("mark")+"<br>")
+    //using shift to remove the first element in the array
+    students.shift()
+    document.write("the shifted array is "+ students +"<br>")
+    //using unshift to add an element at the beginnning
+    students.unshift("victor")
+    document.write("the new array elements after unshifting are "+students +"<br>")
+    //looping through an array
+    document.write("looping through our array<br>")
+    for( var i=0;i<students.length;i++)
+    {
+        document.write(students[i] +"<br>")
+    }
+
+   
+
+   
+   </script> 
+</body>
+</html>
