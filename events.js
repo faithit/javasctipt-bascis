@@ -6,5 +6,6 @@ function btnclick(){
  }
  //addeventlistener
  //elememt.addeventlistener(event,function)
-document.querySelector(.btn)
+const ly=document.querySelector(".btn")
+ly.style.colo
 
