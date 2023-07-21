@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrow  functions</title>
+</head>
+<body>
+    <p>arrow functions</p>
+    <script type="text/javascript">
+        //arrrow function
+        let example=()=>document.write("hello goodmorning" +"<br>")
+
+        //calling the arrow function
+        example()
+
+        //arrow function with one parameter
+        let greeting=name=>console.log("hello "  +name)
+
+        //calling the arrow function
+        greeting("jane")
+        //arrow function with  multiple parameters
+        let addtwonumbers=(x,y)=>x+y
+
+        //calling the arrow function
+        console.log(addtwonumbers(20,30))
+
+        //arrow function with default parameter
+        let  example2=(x,y,z=20)=>{
+            console.log(x +" "+y+" "+z)
+        }
+        //calling the function
+        example2(20,30)
+
+        const example3=()=>alert("this is an alert")
+        //invoke the function
+        example3()
+
+        let age=prompt("hi what is your age",0)
+        let welcome=(age>18)?
+            ()=>alert("you can be able to drive"):
+            ()=>alert("you cannot drive")
+
+        welcome()
+
+
+    </script>
+    
+</body>
+</html>
