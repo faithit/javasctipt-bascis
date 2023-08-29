@@ -4,7 +4,7 @@ abc.style.color="red";
 //getelementsbyclassname
 
 const xyz=document.getElementsByClassName("hello");
-//xyz[0].style.color="blue";
+//xyz[0].style.color="blue";getelementsbyclassname
 for(i=0;i<xyz.length;i++){
     xyz[i].style.color="yellow";
 }
@@ -34,7 +34,6 @@ document.getElementById("is").setAttribute("type","password");
 const px=document.createElement("p");
 px.innerHTML="hello";
 document.body.appendChild(px);
-+
 console.log(st);
 console.log(st.innerText);
 console.log(st.innerHTML)
